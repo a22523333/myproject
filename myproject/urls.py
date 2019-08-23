@@ -22,4 +22,5 @@ urlpatterns = [
     #url(r'^boards/(?P<pk>\d+)/$',board_topics,name='board_topics'),
     url(r'^admin/', admin.site.urls),
     url(r'^boards/',include('boards.urls')),
+    url(r'^accounts/',include('accounts.urls')),
 ]
